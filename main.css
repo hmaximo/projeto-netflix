@@ -43,7 +43,7 @@ header nav a :hover{
 /*filme principal*/
 .filme-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0, 0, 0, .50)(rgba(0, 0, 0, .50)100%, url('/img/sense.jpg');
+    background:linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('sense.jpg');
     
     height: 400px;
     background-size: cover;
@@ -51,7 +51,7 @@ header nav a :hover{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    align-items:flex-start;
+    align-items:center;
 }
 
 .filme-principal .descricao{
@@ -66,7 +66,7 @@ header nav a :hover{
 }
 
 .botao{
-    background-color: rgba(red, green, blue, .50);
+    background-color: rgba(0, 0, 0, .50);
     border: none;
     color: white;
 
